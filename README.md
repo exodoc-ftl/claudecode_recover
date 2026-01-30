@@ -44,7 +44,7 @@ Say "recover session 1" and Claude reads your session docs, checks which service
 
 ```bash
 # Clone and run install script
-git clone https://github.com/exodoc-ftl/claude-recover.git
+git clone https://github.com/exodoc-ftl/claudecode_recover.git
 cd claude-recover
 ./install.sh
 ```
