@@ -1,6 +1,6 @@
 #!/bin/bash
 # Install claude-recover
-# Run: curl -fsSL https://raw.githubusercontent.com/[user]/claude-recover/main/install.sh | bash
+# Run: curl -fsSL https://raw.githubusercontent.com/exodoc-ftl/claudecode_recover/main/install.sh | bash
 
 set -e
 
@@ -31,8 +31,8 @@ else
 
     curl -fsSL "$REPO_URL/raw/main/scripts/recover.py" -o "$CLAUDE_DIR/scripts/recover.py"
     curl -fsSL "$REPO_URL/raw/main/scripts/checkpoints.py" -o "$CLAUDE_DIR/scripts/checkpoints.py"
-    curl -fsSL "$REPO_URL/raw/main/commands/recover.md" -o "$CLAUDE_DIR/commands/"
-    curl -fsSL "$REPO_URL/raw/main/hooks/checkpoint-hook.sh" -o "$CLAUDE_DIR/hooks/"
+    curl -fsSL "$REPO_URL/raw/main/commands/recover.md" -o "$CLAUDE_DIR/commands/recover.md"
+    curl -fsSL "$REPO_URL/raw/main/hooks/checkpoint-hook.sh" -o "$CLAUDE_DIR/hooks/checkpoint-hook.sh"
 fi
 
 # Make scripts executable
