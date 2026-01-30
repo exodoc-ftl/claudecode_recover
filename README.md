@@ -16,22 +16,11 @@ You're deep in a Claude Code session across multiple projects. Your machine cras
 /recover
 ```
 
-That's it. One command shows you:
+That's it. One command shows you all recent sessions, detects your docs, and helps you pick up exactly where you left off.
 
-```
-Recent sessions (last 48h):
+![demo](assets/demo.png)
 
- # |     Time | Msgs | Project                   | Summary
-------------------------------------------------------------------------------------------
- 1 |    0.3h ago |   47 | trading-bot               | Implementing backtest engine
-   |          |      |                           | Docs: NEXT_SESSION.md
- 2 |    2.1h ago |   23 | api-gateway               | Fixed auth middleware
-   |          |      |                           | Docs: SESSION_DIARY.md
- 3 |    5.4h ago |   89 | ml-pipeline               | Training loop optimization
-   |          |      |                           | Docs: SESSION_12_training.md
-```
-
-Say "recover session 1" and Claude reads your session docs, checks which services are running, and generates a complete handoff prompt to continue exactly where you left off.
+Say "recover session 2" and Claude reads your session docs, checks which services are running, and generates a complete handoff prompt to continue.
 
 ## What It Does
 
