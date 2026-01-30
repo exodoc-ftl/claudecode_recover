@@ -5,7 +5,7 @@
 set -e
 
 CLAUDE_DIR="$HOME/.claude"
-REPO_URL="https://github.com/[user]/claude-recover"
+REPO_URL="https://github.com/exodoc-ftl/claude-recover"
 
 echo "Installing claude-recover..."
 
